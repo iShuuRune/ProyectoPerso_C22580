@@ -100,7 +100,7 @@ body {
 .movies-grid {
   display: flex;
   gap: 12px;
-  overflow-x: auto;
+  overflow-x: scroll;
   padding-bottom: 8px;
   scrollbar-width: none;
   -ms-overflow-style: none;
@@ -122,16 +122,16 @@ body {
 }
 
 #recommended-movies .movie-card {
-  min-width: 180px;
+  min-width: 160px;
 }
 
 #recommended-movies .movie-poster {
-  width: 180px;
-  height: 270px;
+  width: 160px;
+  height: 250px;
 }
 
 .movie-poster {
-  width: 140px;
+  width: 130px;
   height: 200px;
   border-radius: 12px;
   object-fit: cover;

@@ -58,22 +58,7 @@ const movieData = {
             populateCategory('new-releases', movieData.newReleases);
             populateCategory('trending-now', movieData.trendingNow);
 
-            document.querySelectorAll('.nav-item').forEach(item => {
-                item.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    document.querySelectorAll('.nav-item').forEach(nav => nav.classList.remove('active'));
-                    this.classList.add('active');
-                });
-            });
-
-            document.querySelectorAll('.desktop-nav a').forEach(item => {
-                item.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    document.querySelectorAll('.desktop-nav a').forEach(nav => nav.classList.remove('active'));
-                    this.classList.add('active');
-                });
-            });
-
+            
             document.querySelectorAll('.movies-grid').forEach(grid => {
                 let isDown = false;
                 let startX;

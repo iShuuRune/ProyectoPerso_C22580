@@ -1,35 +1,38 @@
 const movieData = {
             recommendedMovies: [
-                { title: "Violent Night", rating: "7.9", image: "https://images.unsplash.com/photo-1489599510392-4c7c3e0b3b4e?w=300&h=450&fit=crop" },
-                { title: "Megan", rating: "7.9", image: "https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?w=300&h=450&fit=crop" },
-                { title: "Avatar", rating: "8.5", image: "https://images.unsplash.com/photo-1446776877081-d282a0f896e2?w=300&h=450&fit=crop" },
-                { title: "Top Gun", rating: "8.2", image: "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?w=300&h=450&fit=crop" },
-                { title: "Dune", rating: "8.0", image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=300&h=450&fit=crop" }
+                { title: "Star Wars IV", rating: "8.2", image: "img/star-wars-iv.jpg" },
+                { title: "Top Gun Maverick", rating: "8.6", image: "img/topgun-maverick.jpg" },
+                { title: "Haikyuu Movie", rating: "8.9", image: "img/haikyuu-movie.jpg" },
+                { title: "Maikol Yordan", rating: "8.2", image: "img/maikol-yordan.jpg" },
+                { title: "Dune 2", rating: "8.1", image: "img/dune-2.jpg" },
+                { title: "Avengers Endgame", rating: "8.1", image: "img/avengers-endgame.jpg" }
             ],
             popularSeries: [
-                { title: "Westworld", rating: "7.9", image: "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=300&h=450&fit=crop" },
-                { title: "Servant", rating: "7.9", image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=450&fit=crop" },
-                { title: "Wednesday", rating: "7.9", image: "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=300&h=450&fit=crop" },
-                { title: "Severance", rating: "8.7", image: "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=300&h=450&fit=crop" },
-                { title: "House of Dragon", rating: "8.5", image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=300&h=450&fit=crop" }
+                { title: "Clone Wars", rating: "8.9", image: "img/clone-wars.jpg" },
+                { title: "Breaking Bad", rating: "7.9", image: "img/breaking-bad.jpg" },
+                { title: "Diamond No Ace ACT II", rating: "9.4", image: "img/diamond-no-ace-act2.jpg" },
+                { title: "Haikyuu S4", rating: "8.4", image: "img/haikyuu-s4.jpg" },
+                { title: "The Boys", rating: "8.6", image: "img/the-boys.jpg" },
+                { title: "Weak Hero", rating: "8.0", image: "img/weak-hero-1.jpg" }
             ],
             newReleases: [
-                { title: "The Menu", rating: "7.2", image: "https://images.unsplash.com/photo-1564424275557-cc4a86d0c8e5?w=300&h=450&fit=crop" },
-                { title: "Glass Onion", rating: "7.1", image: "https://images.unsplash.com/photo-1489599510392-4c7c3e0b3b4e?w=300&h=450&fit=crop" },
-                { title: "The Whale", rating: "7.7", image: "https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?w=300&h=450&fit=crop" },
-                { title: "Babylon", rating: "7.3", image: "https://images.unsplash.com/photo-1478720568477-b0ac8c35ad99?w=300&h=450&fit=crop" },
-                { title: "The Fabelmans", rating: "7.5", image: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=300&h=450&fit=crop" }
+                { title: "Great Pretender", rating: "9.2", image: "img/great-pretender.jpg" },
+                { title: "Haikyuu S4", rating: "8.4", image: "img/haikyuu-s4.jpg" },
+                { title: "Diamond No Ace ACT II", rating: "9.4", image: "img/diamond-no-ace-act2.jpg" },
+                { title: "Top Gun Maverick", rating: "8.6", image: "img/topgun-maverick.jpg" },
+                { title: "Weak Hero", rating: "8.0", image: "img/weak-hero-1.jpg" },
+                { title: "Dune 2", rating: "8.1", image: "img/dune-2.jpg" }
             ],
             trendingNow: [
-                { title: "Stranger Things", rating: "8.7", image: "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=300&h=450&fit=crop" },
-                { title: "The Bear", rating: "8.6", image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=450&fit=crop" },
-                { title: "Euphoria", rating: "8.4", image: "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=300&h=450&fit=crop" },
-                { title: "The Last of Us", rating: "9.0", image: "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=300&h=450&fit=crop" },
-                { title: "Wednesday", rating: "8.1", image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=300&h=450&fit=crop" }
+                { title: "Haikyuu Movie", rating: "8.9", image: "img/haikyuu-movie.jpg" },
+                { title: "Maikol Yordan", rating: "8.2", image: "img/maikol-yordan.jpg" },
+                { title: "Breaking Bad", rating: "7.9", image: "img/breaking-bad.jpg" },
+                { title: "Great Pretender", rating: "9.2", image: "img/great-pretender.jpg" },
+                { title: "Dune 2", rating: "8.1", image: "img/dune-2.jpg" },
+                { title: "Haikyuu S4", rating: "8.4", image: "img/haikyuu-s4.jpg" }
             ]
         };
 
-        // Function to create movie card HTML
         function createMovieCard(movie, index) {
             return `
                 <div class="movie-card" style="animation-delay: ${index * 0.1}s">
@@ -42,7 +45,6 @@ const movieData = {
             `;
         }
 
-        // Function to populate a category
         function populateCategory(containerId, movies) {
             const container = document.getElementById(containerId);
             if (container) {
@@ -50,30 +52,12 @@ const movieData = {
             }
         }
 
-        // Initialize the app
         function initApp() {
             populateCategory('recommended-movies', movieData.recommendedMovies);
             populateCategory('popular-series', movieData.popularSeries);
             populateCategory('new-releases', movieData.newReleases);
             populateCategory('trending-now', movieData.trendingNow);
 
-            // Add click event listeners to movie cards
-            document.querySelectorAll('.movie-card').forEach(card => {
-                card.addEventListener('click', function() {
-                    const title = this.querySelector('.movie-title').textContent;
-                    alert(`Playing: ${title}`);
-                });
-            });
-
-            // Add search functionality
-            const searchInput = document.querySelector('.search-input');
-            searchInput.addEventListener('input', function(e) {
-                const searchTerm = e.target.value.toLowerCase();
-                // Simple search implementation - in a real app, this would filter content
-                console.log('Searching for:', searchTerm);
-            });
-
-            // Add navigation functionality
             document.querySelectorAll('.nav-item').forEach(item => {
                 item.addEventListener('click', function(e) {
                     e.preventDefault();
@@ -82,7 +66,6 @@ const movieData = {
                 });
             });
 
-            // Add desktop navigation functionality
             document.querySelectorAll('.desktop-nav a').forEach(item => {
                 item.addEventListener('click', function(e) {
                     e.preventDefault();
@@ -91,7 +74,6 @@ const movieData = {
                 });
             });
 
-            // Add horizontal scroll functionality for touch devices
             document.querySelectorAll('.movies-grid').forEach(grid => {
                 let isDown = false;
                 let startX;
@@ -124,11 +106,8 @@ const movieData = {
             });
         }
 
-        // Initialize when DOM is loaded
         document.addEventListener('DOMContentLoaded', initApp);
 
-        // Handle window resize for responsive behavior
         window.addEventListener('resize', function() {
-            // Adjust layout if needed
             console.log('Window resized');
         });
